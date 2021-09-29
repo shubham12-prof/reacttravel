@@ -17,7 +17,7 @@ EXPLORE TOP DESTINATION
 <div className="card">
     <div className ="Sdata">
         <Card 
-        imageUrl= {process.env.PUBLIC_URL +"/Images/one.jpg" }
+        imageUrl= {process.env.PUBLIC_URL +"/Images/two.jpg" }
         sname="SOLANG VALLEY"
         text="Solang Valley derives its name from combination of words Solang and Nallah. It is a side valley at the top of the Kullu Valley in Himachal Pradesh,"
         Price="16000" 
