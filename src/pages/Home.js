@@ -36,7 +36,7 @@ const Home = () => {
         Explore a different way to travel
         </h1>
 
-        <img src= {process.env.PUBLIC_URL +"/Images/Home1.jpg" } alt=" first"/>
+        <img src= {process.env.PUBLIC_URL +"/Images/Home1.JPG" } alt=" first"/>
         <p data-aos="fade-up">
          Discover new cultures and have a wonderful rest with Backpack Story! Select the country you’d like to visit and provide our agents with estimated time – they’ll find and offer the most suitable tours and hotels.
         <br />
@@ -44,7 +44,7 @@ const Home = () => {
         </p>
     </div>
     <div data-aos="fade-up" className="text-box3">
-    <img data-aos="fade-up" className="image3" src={process.env.PUBLIC_URL +"/Images/Home2.jpg" }/>
+    <img data-aos="fade-up" className="image3" src={process.env.PUBLIC_URL +"/Images/Home2.JPG" }/>
         <p data-aos="fade-up">
         Travel early and travel often. Live abroad, if you can. Understand cultures other than your own. As your understanding of other cultures increases, your understanding of yourself and your own culture will increase exponentially.
         </p>
