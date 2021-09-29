@@ -57,7 +57,7 @@ a{
 
     .card-item {
         width: 49vh;
-        overflow: visible;
+        overflow: hidden;
         padding: 0px 34px;
     }
 }
