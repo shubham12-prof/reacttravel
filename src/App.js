@@ -14,7 +14,7 @@ export const App = () => {
 <React.StrictMode>
  <BrowserRouter> 
  <ScrollToTop />
-     <Navbar />
+  <Navbar /> 
        <Switch>
           <Route exact path ="/" component ={Home}  />
           <Route exact path ="/About" component ={About} />

@@ -3,6 +3,7 @@ import Card from "./Card";
 import "aos/dist/aos.css"
 import Aos from "aos";
 import './Sdata.css';
+import Home from './Home';
 
 
 const Sdata= () => {
@@ -10,6 +11,7 @@ const Sdata= () => {
         Aos.init({duration:2000});
       }, [])
 return(
+    <>
 <div className ="card">
 <h1 className="card-head">
 EXPLORE TOP DESTINATION
@@ -17,7 +19,7 @@ EXPLORE TOP DESTINATION
 <div className="card">
     <div className ="Sdata">
         <Card 
-        imageUrl= {process.env.PUBLIC_URL +"/Images/two.jpg" }
+        imageUrl= {process.env.PUBLIC_URL +"/Images/one.JPG" }
         sname="SOLANG VALLEY"
         text="Solang Valley derives its name from combination of words Solang and Nallah. It is a side valley at the top of the Kullu Valley in Himachal Pradesh,"
         Price="16000" 
@@ -42,13 +44,13 @@ EXPLORE TOP DESTINATION
         Price="11000" 
         />
          <Card 
-         imageUrl= {process.env.PUBLIC_URL +"/Images/five.jpg" }
+         imageUrl= {process.env.PUBLIC_URL +"/Images/five.JPG" }
         sname="VALLEY OF FLOWERS"
         text="Valley of Flowers National Park is an Indian national park, located in North Chamoli and Pithoragarh, in the state of Uttarakhand and is known for its meadows."
         Price="15000" 
         />
          <Card 
-         imageUrl= {process.env.PUBLIC_URL +"/Images/six.jpg" }
+         imageUrl= {process.env.PUBLIC_URL +"/Images/six.JPG" }
         sname="GOVINDGHAT"
         text="Govindghat is a town in Chamoli district, Uttarakhand, India, located at the confluence of the Alaknanda and Lakshman Ganga rivers"
         Price="13000" 
@@ -94,6 +96,10 @@ EXPLORE TOP DESTINATION
 <img data-aos="flip-left" src={process.env.PUBLIC_URL +"/Images/two.jpg" }/>
 </div>
 </div>
+<div className="home-navbar">
+        <Home />
+      </div>
+</>
 )
 }
 export default Sdata;

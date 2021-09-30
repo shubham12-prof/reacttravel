@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Home from '../pages/Home';
 import './Navbar.css';
 
 function Navbar() {
@@ -67,6 +68,9 @@ function Navbar() {
             </ul>
         </div>
       </nav>
+        <div className="home-navbar">
+        <Home />
+      </div>
     </>
   );
 }
