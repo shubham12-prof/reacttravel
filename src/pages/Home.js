@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div className ="container2">
         <div className="text-box">
-        <p>HEY</p>
+        <p>HEY!</p>
         <h1>Explore The World 
         </h1>
         {/* <h3>
