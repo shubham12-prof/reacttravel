@@ -88,7 +88,7 @@ EXPLORE TOP DESTINATION
 </div>
 </div>
 <div className="tour-footer">
-<h2 className="footer-tour">Over the course of my life I've been to lots of places. Shadowed places where things have gone wrong. Sinister places where things still are. I always hate the sunlit towns, full of newly built developments with double-car garages in shades of pale eggshell, surrounded by green lawns and dotted with laughing children. Those towns aren't any less haunted than the others. They're just better liars.”
+<h2 className="footer-tour">"Over the course of my life I've been to lots of places. Shadowed places where things have gone wrong. Sinister places where things still are. I always hate the sunlit towns, full of newly built developments with double-car garages in shades of pale eggshell, surrounded by green lawns and dotted with laughing children. Those towns aren't any less haunted than the others. They're just better liars.”
 <br />
 <span>― Kendare Blake, Anna Dressed in Blood 
 </span></h2>

@@ -1,5 +1,9 @@
 import React from 'react'
 import './Footer.css'
+import './pages/About'
+import './pages/Contact'
+import './pages/Services'
+import './pages/Tours'
 export const Footer = () => {
     return (
 <div className="footer">
@@ -8,10 +12,10 @@ export const Footer = () => {
   	 		<div className="footer-col">
   	 			<h4>Explore</h4>
   	 			<ul>
-  	 				<li><a href="">about us</a></li>
-  	 				<li><a href="">contact</a></li>
-  	 				<li><a href="">tours</a></li>
-  	 				<li><a href="">services</a></li>
+  	 				<li><a href="/About">about us</a></li>
+  	 				<li><a href="/Contact">contact</a></li>
+  	 				<li><a href="/Tours">tours</a></li>
+  	 				<li><a href="/Services">services</a></li>
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col">

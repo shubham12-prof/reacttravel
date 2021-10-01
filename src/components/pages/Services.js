@@ -11,12 +11,12 @@ const Services = () => {
     return (
         <div className="service-card">
             <h1>
-            We proposed to you
+            We proposE to you
             </h1>
             <div data-aos="fade-down" className="all-card">
             <div data-aos="fade-down" className ="card-diff">
             <img data-aos="flip-left" src={process.env.PUBLIC_URL +"/Images/S8.JPG" }/>
-            <h2 > MOUNTAINS TOURS </h2>
+            <h2 > MOUNTAIN TOURS </h2>
                 <p>Is mountaineering in your blood?
                  Get a tour to Andes or Himalayas.
                 </p>
@@ -35,7 +35,7 @@ const Services = () => {
             </div>
             <div className ="card-diff">
             <img data-aos="flip-left" src={process.env.PUBLIC_URL +"/Images/S2.jpg" }/>
-            <h2>CRUISES TOURS </h2>
+            <h2>CRUISE TOURS </h2>
                 <p>A cruise liner will provide you with all your special needs throughout your journey.
                 </p>
                 <button >

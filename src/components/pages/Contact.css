@@ -2,3 +2,9 @@
     height: 600px;
     width: 100%;
 }
+@media screen and (max-width: 480px) {
+    .contact{
+        height: 95vh;
+        width: 100%;
+    }
+}

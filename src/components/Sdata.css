@@ -74,12 +74,11 @@ html,body{
     .Sdata{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: -36px;
+        margin-left: -3vh;
     }
 
     .card{
         display: grid;
-        /* text-align: center; */
     }
     .card-head{
         font-size: 24px;
@@ -135,12 +134,12 @@ html,body{
     
     
     .tour-footer img{
-        width: 171px;
-        height: 236px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tour-footer  .footer-tour {
+        height: 100%;
+        background-color: rgb(138, 138, 187);
     }
 }
-
-/* 
-  .home-navbar div{
-    display: none;
-  } */
