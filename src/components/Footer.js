@@ -8,10 +8,10 @@ export const Footer = () => {
   	 		<div className="footer-col">
   	 			<h4>Explore</h4>
   	 			<ul>
-  	 				<li><a href="/about">about us</a></li>
-  	 				<li><a href="/contact">contact</a></li>
-  	 				<li><a href="/tours">tours</a></li>
-  	 				<li><a href="/services">services</a></li>
+  	 				<li><a href="">about us</a></li>
+  	 				<li><a href="">contact</a></li>
+  	 				<li><a href="">tours</a></li>
+  	 				<li><a href="">services</a></li>
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col">

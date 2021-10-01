@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+html,body{
+    overflow-x: hidden;
+  }
 .card-item{
     width: 55vh;
     box-shadow: 0px 0px 1spx 0 px;
