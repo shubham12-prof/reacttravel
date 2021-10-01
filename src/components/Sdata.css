@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.card h2{
+    text-align: center;
+    padding-left: 1px;
+    background-color: rgb(172, 172, 202);
+}
+
+
+.card .favorite h2{
+    color: black;
+}
+
+.card a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.card-head{
+    padding-left: 40px;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-container .card-button{
+    padding: 5px 20px;
+    margin-top: 20px;
+    background-color: burlywood;
+    border-radius: 8px;
+}
+
+.Sdata{
+    display: grid;
+    grid-row: 9px;
+    grid-column: 9px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.tour-footer
+{
+    display: flex;
+}
+
+
+.tour-footer .footer-tour {
+    padding: 30px 80px;
+    background-color: rgb(134, 140, 172);
+}
+
+.tour-footer span{
+    padding-left: 20rem;
+}
+
+
+.tour-footer img{
+    width: 500px;
+    height: 520px;
+}
+
+@media screen and (max-width: 480px){
+    .Sdata{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: -36px;
+    }
+
+    .card{
+        display: grid;
+        /* text-align: center; */
+    }
+    .card-head{
+        font-size: 24px;
+        margin: 6px 0px 0px -26px;
+        /* padding-right: 10px; */
+    }
+    .card h2{
+        /* text-align: center; */
+        /* margin: 0px 50px 0px 0px; */
+        background-color: rgb(172, 172, 202);
+    }
+    
+    
+    .card .favorite h2{
+        color: black;
+    }
+    
+    .card a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .card-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .card-container .card-button{
+        padding: 5px 20px;
+        margin-top: 20px;
+        background-color: burlywood;
+        border-radius: 8px;
+    }
+
+    
+    .tour-footer
+    {
+        display: flex;
+    }
+    
+    
+    .tour-footer .footer-tour {
+        padding: 0px 1px;
+        background-color: rgb(134, 140, 172);
+        font-size: 0.7rem;
+        height: 32vh;
+        width: 30vh;
+    }
+    
+    .tour-footer span{
+        padding-left: 20rem;
+    }
+    
+    
+    .tour-footer img{
+        width: 171px;
+        height: 236px;
+    }
+}
+
+/* 
+  .home-navbar div{
+    display: none;
+  } */

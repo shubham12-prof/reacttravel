@@ -1,14 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Home from '../pages/Home';
 import './Navbar.css';
-
 function Navbar() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
 
   return (
     <>
@@ -17,9 +14,6 @@ function Navbar() {
           <i  class="fas fa-route"></i>
           </Link>
         <div className='navbar-container'>
-          {/* <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <i  class="fas fa-route"></i>
-          </Link> */}
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
@@ -68,8 +62,7 @@ function Navbar() {
             </ul>
         </div>
       </nav>
-        <div className="home-navbar">
-        <Home />
+      <div>
       </div>
     </>
   );
