@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/reacttravel/static/css/main.c9b6fa7d.chunk.css",
-    "main.js": "/reacttravel/static/js/main.759cce60.chunk.js",
-    "main.js.map": "/reacttravel/static/js/main.759cce60.chunk.js.map",
+    "main.css": "/reacttravel/static/css/main.6c54c4e4.chunk.css",
+    "main.js": "/reacttravel/static/js/main.5006906a.chunk.js",
+    "main.js.map": "/reacttravel/static/js/main.5006906a.chunk.js.map",
     "runtime-main.js": "/reacttravel/static/js/runtime-main.820add58.js",
     "runtime-main.js.map": "/reacttravel/static/js/runtime-main.820add58.js.map",
     "static/css/2.ec02d681.chunk.css": "/reacttravel/static/css/2.ec02d681.chunk.css",
-    "static/js/2.d153d970.chunk.js": "/reacttravel/static/js/2.d153d970.chunk.js",
-    "static/js/2.d153d970.chunk.js.map": "/reacttravel/static/js/2.d153d970.chunk.js.map",
+    "static/js/2.727ca2fe.chunk.js": "/reacttravel/static/js/2.727ca2fe.chunk.js",
+    "static/js/2.727ca2fe.chunk.js.map": "/reacttravel/static/js/2.727ca2fe.chunk.js.map",
     "index.html": "/reacttravel/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/reacttravel/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.c9b6fa7d.chunk.css.map": "/reacttravel/static/css/main.c9b6fa7d.chunk.css.map",
-    "static/js/2.d153d970.chunk.js.LICENSE.txt": "/reacttravel/static/js/2.d153d970.chunk.js.LICENSE.txt",
+    "static/css/main.6c54c4e4.chunk.css.map": "/reacttravel/static/css/main.6c54c4e4.chunk.css.map",
+    "static/js/2.727ca2fe.chunk.js.LICENSE.txt": "/reacttravel/static/js/2.727ca2fe.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/reacttravel/static/media/DSC_0024.bb7b09ca.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.820add58.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.d153d970.chunk.js",
-    "static/css/main.c9b6fa7d.chunk.css",
-    "static/js/main.759cce60.chunk.js"
+    "static/js/2.727ca2fe.chunk.js",
+    "static/css/main.6c54c4e4.chunk.css",
+    "static/js/main.5006906a.chunk.js"
   ]
 }
