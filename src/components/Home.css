@@ -4,7 +4,9 @@
 }
 
 .container2{
-    background-color:white;
+    background-color:#fff;
+    overflow: hidden;
+
 }
 
 .text-box{
