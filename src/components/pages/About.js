@@ -59,7 +59,7 @@ function About() {
             </div>
           </div>
           <div data-aos="fade-up" className= "about-img" >
-            <img src={process.env.PUBLIC_URL +"/Images/two.jpg" } 
+            <img alt='aboutimg' src={process.env.PUBLIC_URL +"/Images/two.jpg" } 
                 placeholder=" hello"
             />
           </div>

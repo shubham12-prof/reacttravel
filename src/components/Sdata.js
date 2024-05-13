@@ -92,7 +92,7 @@ EXPLORE TOP DESTINATION
 <br />
 <span>― Kendare Blake, Anna Dressed in Blood 
 </span></h2>
-<img data-aos="flip-left" src={process.env.PUBLIC_URL +"/Images/two.jpg" }/>
+<img data-aos="flip-left" alt='dataimage' src={process.env.PUBLIC_URL +"/Images/two.jpg" }/>
 </div>
 </div>
 </>

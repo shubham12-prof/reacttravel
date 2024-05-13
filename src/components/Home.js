@@ -12,10 +12,6 @@ const Home = () => {
         <p>HEY!</p>
         <h1>Explore The World 
         </h1>
-        {/* <h3>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus voluptatem, assumenda saepe nisi quis tenetur consectetur similique ipsa soluta provident nostrum.
-        </h3> */}
-
         <div data-aos="fade-up" className="row">
         <a href="/Tours">Explore</a>
         <a href="Contact">Connect with Me
@@ -44,7 +40,7 @@ const Home = () => {
         </p>
     </div>
     <div data-aos="fade-up" className="text-box3">
-    <img data-aos="fade-up" className="image3" src={process.env.PUBLIC_URL +"/Images/home2.JPG" }/>
+    <img data-aos="fade-up" className="image3" alt='homeimg' src={process.env.PUBLIC_URL +"/Images/home2.JPG" }/>
         <p data-aos="fade-up">
         Travel early and travel often. Live abroad, if you can. Understand cultures other than your own. As your understanding of other cultures increases, your understanding of yourself and your own culture will increase exponentially.
         </p>
