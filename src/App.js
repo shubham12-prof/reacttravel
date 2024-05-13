@@ -16,6 +16,7 @@ const App = () => {
         <ScrollToTop />
         <Navbar /> 
          <Switch>
+         <Route exact path ="/reacttravel" component ={Home}  />
           <Route exact path ="/" component ={Home}  />
           <Route exact path ="/About" component ={About} />
           <Route exact path ="/Tours" component ={Tours} />
